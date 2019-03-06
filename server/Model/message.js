@@ -11,7 +11,7 @@ const message =new mongoose.Schema({
     },
     
     date:{type: Date, default:Date.now},
-    corps:String
+    corp:String
     
 });
 const messageModel = mongoose.model('messages',message);
