@@ -45,7 +45,7 @@ app.use('/user',listerUser)
 app.use('/message',listermsg)
 app.use('/api-docs',swagger)
 
-app.listen(3001, (err)=>{
+app.listen(3003, (err)=>{
     if(err)throw err;
-    console.log('server is running on port 3001')
+    console.log('server is running on port 3003')
 })
